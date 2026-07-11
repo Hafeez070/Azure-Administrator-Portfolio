@@ -60,3 +60,64 @@ The organization requires the Azure environment to:
 
 This project establishes the governance foundation for PrimeLink Solutions Ltd.'s Azure environment by implementing a dedicated Resource Group with a standardized naming convention, governance tags, and a Delete Lock. These configurations provide a structured management boundary that supports secure, scalable, and well-organized Azure resource deployments.
 
+## Deployment Procedure
+
+The following activities were completed through the Azure Portal:
+
+1. Created a dedicated Azure Resource Group using the enterprise naming convention.
+2. Selected the UK South region for deployment consistency.
+3. Applied governance tags to support resource organization and cost management.
+4. Configured a Delete Lock (CanNotDelete) to protect the Resource Group from accidental deletion.
+5. Validated the successful deployment and governance configuration through the Azure Portal.
+
+## Validation
+
+The deployment was successfully validated by confirming:
+
+- The Resource Group was successfully created.
+- Governance tags were applied correctly.
+- The Delete Lock was configured successfully.
+- The Azure Portal reflected the expected governance configuration.
+
+## Evidence of Implementation
+
+The following figures provide evidence of the successful implementation and validation of the governance configuration.
+
+### Figure 1.1 – Resource Group Created
+
+![Resource Group Created](images/01-resource-group-created.png)
+
+The Resource Group was successfully deployed using the enterprise naming convention.
+
+---
+
+### Figure 1.2 – Governance Tags
+
+![Governance Tags](images/02-tags-configured.png)
+
+Governance tags were configured to support cost allocation and resource organization.
+
+---
+
+### Figure 1.3 – Delete Lock
+
+![Delete Lock](images/03-delete-lock.png)
+
+A CanNotDelete lock was applied to prevent accidental deletion of the Resource Group.
+
+---
+
+### Figure 1.4 – Resource Group Overview
+
+![Resource Group Overview](images/04-resource-group-overview.png)
+
+Final validation confirming the completed governance configuration.
+
+## Decision Log
+
+| Decision | Business Justification |
+|-----------|------------------------|
+| Created a dedicated Resource Group | Organizes Azure resources under a common management boundary. |
+| Selected UK South | Maintains deployment consistency across the Azure Administrator Portfolio. |
+| Applied governance tags | Supports cost allocation, resource organization, and operational governance. |
+| Configured a Delete Lock | Protects production resources from accidental deletion while allowing configuration changes. |
