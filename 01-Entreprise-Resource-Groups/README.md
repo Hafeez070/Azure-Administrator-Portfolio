@@ -121,3 +121,57 @@ Final validation confirming the completed governance configuration.
 | Selected UK South | Maintains deployment consistency across the Azure Administrator Portfolio. |
 | Applied governance tags | Supports cost allocation, resource organization, and operational governance. |
 | Configured a Delete Lock | Protects production resources from accidental deletion while allowing configuration changes. |
+
+## Security Considerations
+
+- Applied a Delete Lock to reduce the risk of accidental deletion.
+- Implemented governance tags to improve operational visibility.
+- Used a standardized naming convention to simplify administration.
+- No public resources or sensitive data were deployed during this project.
+
+## Cost Considerations
+
+This project did not deploy any billable Azure compute or networking resources. The Resource Group, governance tags, and Delete Lock do not incur additional Azure charges.
+
+Cost awareness remains an important aspect of Azure administration and was considered throughout this deployment.
+
+## Lessons Learned
+
+Throughout this project, I gained a deeper understanding of Azure governance and the importance of establishing management standards before deploying cloud workloads.
+
+Key lessons learned include:
+
+- Azure Resource Groups provide a logical management boundary for related resources.
+- Resource Groups can contain resources deployed across multiple Azure regions.
+- Resource tags improve governance, reporting, and cost allocation.
+- Delete Locks help prevent accidental deletion while still allowing authorized configuration changes.
+- Consistent naming conventions simplify Azure administration and improve operational efficiency.
+
+## Administrator Reflection
+
+Completing this project reinforced the importance of establishing governance before deploying workloads in Azure. Although Resource Groups are one of the foundational Azure services, implementing a consistent naming convention, governance tags, and resource protection ensures that future deployments remain organized, secure, and easier to manage throughout their lifecycle.
+
+This project also demonstrated that good Azure administration begins with planning rather than simply creating resources.
+
+## Skills Demonstrated
+
+- Azure Governance
+- Resource Organization
+- Resource Tagging
+- Azure Administration
+- Resource Protection
+- Azure Portal Management
+
+## Interview Questions I Can Now Answer
+
+- What is the purpose of an Azure Resource Group?
+- Why should Azure resources be organized into Resource Groups?
+- What is the difference between Azure RBAC and Resource Locks?
+- Why are governance tags important?
+- When would you use a Delete Lock instead of a ReadOnly Lock?
+
+---
+
+**Version:** 1.0
+
+**Last Updated:** July 2026
