@@ -1,12 +1,12 @@
 # Azure Administrator Portfolio
 
-Welcome to my Azure Administrator Portfolio.
+Welcome to my Azure Administrator Portfolio, where I document hands-on Microsoft Azure projects designed around real-world enterprise business scenarios and cloud administration best practices.
 
-This repository showcases my hands-on experience building, configuring, and managing Microsoft Azure infrastructure through practical projects based on real-world business scenarios.
+This repository showcases my hands-on experience building, configuring, and managing Microsoft Azure infrastructure through practical projects that reflect enterprise environments and operational requirements.
 
-Each project demonstrates the planning, implementation, validation, governance, security considerations, and technical documentation expected of an Azure Administrator.
+Each project demonstrates the planning, implementation, validation, governance, security considerations, cost optimization, and technical documentation expected of an Azure Administrator.
 
-My objective is not only to learn Microsoft Azure services but also to document each deployment professionally, following enterprise administration best practices.
+My objective is not only to learn Microsoft Azure services but also to build a professional portfolio that demonstrates practical cloud administration skills while preparing for the Microsoft Certified: Azure Administrator Associate (AZ-104) certification.
 
 ---
 
@@ -46,8 +46,8 @@ This portfolio documents my practical Azure projects while preparing for the **M
 | Project | Focus Area | Status |
 |----------|------------|--------|
 | [01 - Enterprise Azure Resource Group Governance Foundation](./01-Enterprise-Resource-Groups) | Governance | ✅ Completed |
-| 02 - Azure Storage Administration | Storage | ⏳ Planned |
-| 03 - Azure Virtual Network Deployment | Networking | ⏳ Planned |
+| [02 - Enterprise Azure Storage Administration](./02-Azure-Storage-Administration) | Storage | ✅ Completed |
+| 03 - Enterprise Azure Virtual Network Administration | Networking | ⏳ Planned |
 
 ---
 
@@ -57,13 +57,13 @@ This portfolio documents my practical Azure projects while preparing for the **M
 AZ-900 ✅
       │
       ▼
-Azure Governance
+Azure Governance ✅
       │
       ▼
-Azure Storage
+Azure Storage ✅
       │
       ▼
-Azure Networking
+Azure Networking ⏳
       │
       ▼
 Microsoft Entra ID
@@ -91,9 +91,11 @@ Azure-Administrator-Portfolio
 │      ├── README.md
 │      └── images
 │
-├── 02-Azure-Storage
+├── 02-Azure-Storage-Administration
+│      ├── README.md
+│      └── images
 │
-├── 03-Virtual-Network
+├── 03-Enterprise-Virtual-Network
 │
 └── ...
 ```
@@ -146,8 +148,8 @@ This portfolio has been created to:
 
 # Contact
 
-- **GitHub:** https://github.com/Hafeez070
-- **LinkedIn:** *(Add your LinkedIn profile URL here)*
+- **GitHub:** [Hafeez070](https://github.com/Hafeez070)
+- **LinkedIn:** [Afeez Adeyemo](https://linkedin.com/in/afeez-adeyemo-3b01b1157/)
 
 ---
 
@@ -155,9 +157,11 @@ This portfolio has been created to:
 
 **Current Progress**
 
-Project Completion: 1 / 20
+Project Completion: 2 / 20
 
-✅ Project 01 – Completed
+✅ Project 01 – Enterprise Azure Resource Group Governance Foundation
+
+✅ Project 02 – Enterprise Azure Storage Administration
 
 ---
 
