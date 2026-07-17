@@ -164,7 +164,7 @@ Project Completion: 3 / 20
 
 ✅ Project 02 – Enterprise Azure Storage Administration
 
-✅ Project 02 – Enterprise Azure Virtual Networking Deployment
+✅ Project 03 – Enterprise Azure Virtual Network Deployment
 
 
 ---
