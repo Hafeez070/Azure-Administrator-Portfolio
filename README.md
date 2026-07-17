@@ -47,7 +47,7 @@ This portfolio documents my practical Azure projects while preparing for the **M
 |----------|------------|--------|
 | [01 - Enterprise Azure Resource Group Governance Foundation](./01-Enterprise-Resource-Groups) | Governance | ✅ Completed |
 | [02 - Enterprise Azure Storage Administration](./02-Azure-Storage-Administration) | Storage | ✅ Completed |
-| 03 - Enterprise Azure Virtual Network Administration | Networking | ⏳ Planned |
+| [03 - Enterprise Azure Virtual Network Deployment](./03-Enterprise-Virtual-Network) | Networking | ✅ Completed |
 
 ---
 
@@ -63,13 +63,13 @@ Azure Governance ✅
 Azure Storage ✅
       │
       ▼
-Azure Networking ⏳
+Azure Networking ✅
+      │
+      ▼
+Azure Virtual Machines ⏳
       │
       ▼
 Microsoft Entra ID
-      │
-      ▼
-Virtual Machines
       │
       ▼
 Monitoring & Backup
@@ -96,7 +96,8 @@ Azure-Administrator-Portfolio
 │      └── images
 │
 ├── 03-Enterprise-Virtual-Network
-│
+│      ├── README.md
+│      └── images
 └── ...
 ```
 
@@ -157,11 +158,14 @@ This portfolio has been created to:
 
 **Current Progress**
 
-Project Completion: 2 / 20
+Project Completion: 3 / 20
 
 ✅ Project 01 – Enterprise Azure Resource Group Governance Foundation
 
 ✅ Project 02 – Enterprise Azure Storage Administration
+
+✅ Project 02 – Enterprise Azure Virtual Networking Deployment
+
 
 ---
 
