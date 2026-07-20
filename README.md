@@ -1,6 +1,6 @@
 # Azure Administrator Portfolio
 
-Welcome to my Azure Administrator Portfolio, where I document hands-on Microsoft Azure projects designed around real-world enterprise business scenarios and cloud administration best practices.
+Welcome to my Azure Administrator Portfolio, where I document hands-on Microsoft Azure projects based on real-world enterprise scenarios and cloud administration best practices. This portfolio reflects my practical journey toward becoming an Azure Administrator through designing, deploying, securing, monitoring, and documenting Azure infrastructure.
 
 This repository showcases my hands-on experience building, configuring, and managing Microsoft Azure infrastructure through practical projects that reflect enterprise environments and operational requirements.
 
@@ -12,7 +12,7 @@ My objective is not only to learn Microsoft Azure services but also to build a p
 
 # About Me
 
-I am an aspiring Azure Administrator with a strong interest in cloud infrastructure, governance, networking, identity management, storage, monitoring, and Azure administration.
+I am an aspiring Azure Administrator focused on developing practical experience in cloud infrastructure, governance, networking, identity management, storage, monitoring, and enterprise Azure administration through hands-on implementation.
 
 This portfolio documents my practical Azure projects while preparing for the **Microsoft Certified: Azure Administrator Associate (AZ-104)** certification.
 
@@ -30,10 +30,10 @@ This portfolio documents my practical Azure projects while preparing for the **M
 - Azure Administration
 - Azure Governance
 - Azure Resource Manager (ARM)
-- Microsoft Entra ID
 - Azure Networking
 - Azure Storage
 - Virtual Machines
+- Microsoft Entra ID
 - Azure Monitoring
 - Azure Cost Management
 - Infrastructure Documentation
@@ -48,6 +48,7 @@ This portfolio documents my practical Azure projects while preparing for the **M
 | [01 - Enterprise Azure Resource Group Governance Foundation](./01-Enterprise-Resource-Groups) | Governance | ✅ Completed |
 | [02 - Enterprise Azure Storage Administration](./02-Azure-Storage-Administration) | Storage | ✅ Completed |
 | [03 - Enterprise Azure Virtual Network Deployment](./03-Enterprise-Virtual-Network) | Networking | ✅ Completed |
+| [04 - Enterprise Azure Virtual Machine Administration](./04-Enterprise-Virtual-Machine-Administration) | Virtual Machine | ✅ Completed |
 
 ---
 
@@ -66,10 +67,10 @@ Azure Storage ✅
 Azure Networking ✅
       │
       ▼
-Azure Virtual Machines ⏳
+Azure Virtual Machines ✅
       │
       ▼
-Microsoft Entra ID
+Microsoft Entra ID ⏳
       │
       ▼
 Monitoring & Backup
@@ -98,6 +99,10 @@ Azure-Administrator-Portfolio
 ├── 03-Enterprise-Virtual-Network
 │      ├── README.md
 │      └── images
+|
+├── 04-Enterprise-Virtual-Machine-Administration
+│      ├── README.md
+│      └── images
 └── ...
 ```
 
@@ -115,7 +120,7 @@ Every project in this portfolio follows a consistent documentation structure:
 - Deployment Procedure
 - Validation
 - Evidence of Implementation
-- Decision Log
+- Administrator Decisions 
 - Security Considerations
 - Cost Considerations
 - Lessons Learned
@@ -158,15 +163,33 @@ This portfolio has been created to:
 
 **Current Progress**
 
-Project Completion: 3 / 20
+Project Completion: 4 / 20
 
 ✅ Project 01 – Enterprise Azure Resource Group Governance Foundation
 
 ✅ Project 02 – Enterprise Azure Storage Administration
 
-✅ Project 03 – Enterprise Azure Virtual Network Deployment
+✅ Project 03 – Enterprise Azure Virtual Network Deployment  
 
+### ✅ Project 04 – Enterprise Azure Virtual Machine Administration
+
+**Skills Demonstrated**
+
+- Azure Virtual Machines
+- Azure Compute
+- Windows Server 2022
+- Managed Disks
+- Azure Monitor
+- Boot Diagnostics
+- Auto Shutdown
+- Trusted Launch
+- Secure Boot
+- Virtual TPM (vTPM)
+- Cost Optimization
+- Infrastructure as Code Concepts
+
+Current Focus: Microsoft Entra ID (Project 05)
 
 ---
 
-**Last Updated:** July 2026
+**Last Updated:** 20 July 2026
