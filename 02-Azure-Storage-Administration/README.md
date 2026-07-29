@@ -1,4 +1,4 @@
-# Enterprise Azure Storage Account Administration
+# Azure Storage Foundation 
 
 ![Azure](https://img.shields.io/badge/Microsoft-Azure-0078D4?logo=microsoftazure&logoColor=white)
 
@@ -28,7 +28,7 @@ This project was designed to:
 | Property | Value |
 |----------|-------|
 | Project Number | 02 |
-| Module | Azure Storage |
+| Project Title | Azure Storage Foundation |
 | Difficulty | Beginner → Intermediate |
 | Estimated Completion Time | 45–60 minutes |
 | Azure Services Used | Azure Storage Account, Azure Blob Storage |
@@ -71,6 +71,7 @@ The storage solution must:
 | Storage Account Keys | Authenticates administrative access to the Storage Account. |
 | Soft Delete | Protects deleted blobs from permanent removal. |
 | Secure Transfer Required | Ensures data is transferred securely over HTTPS. |
+| Microsoft Entra ID | Identity and access management for Azure resources. |
 
 ---
 
@@ -142,7 +143,7 @@ Azure Blob Storage access tiers were selected based on expected business usage p
 | Hot | Branding Assets | Marketing materials are accessed regularly for campaigns and company communications. |
 | Archive | Application Backups | Backup files are retained for disaster recovery and are rarely accessed, helping reduce long-term storage costs. |
 
-Selecting the appropriate access tier improves operational efficiency while optimizing Azure storage costs.
+These access tiers were selected based on expected business usage patterns and demonstrate how Azure Storage can balance performance requirements with long-term cost optimization.
 
 ---
 
@@ -165,6 +166,8 @@ A Blob-level Shared Access Signature (SAS) was configured to securely share a si
 
 Rather than making the entire Blob Container public, a Blob-level SAS was used to provide temporary, read-only access to a single file. This follows the Principle of Least Privilege by granting only the permissions required for the external design agency.
 
+> **Future Enhancement:** In enterprise production environments, Microsoft recommends using User Delegation SAS with Microsoft Entra ID instead of Account Key–based SAS where applicable, as it provides more granular access control and eliminates direct dependence on storage account keys.
+
 ---
 
 # Business Value
@@ -181,6 +184,7 @@ After completing this project, I can confidently:
 
 - Deploy an Azure Storage Account.
 - Configure storage redundancy using Locally Redundant Storage (LRS).
+- Apply storage design decisions based on business requirements.
 - Configure Storage Account security settings.
 - Organize enterprise data using Blob Containers.
 - Upload and manage Blob objects.
@@ -268,12 +272,14 @@ Azure Storage Browser was used to verify the Storage Account structure and manag
 
 Future improvements to this solution may include:
 
-- Private Endpoints
-- Microsoft Entra ID authentication
-- User Delegation SAS
-- Lifecycle Management policies
-- Azure Monitor Integration
-- Azure Backup integration
+- Implement Private Endpoints to eliminate public network exposure.
+- Configure Microsoft Entra ID authentication for Azure Storage access.
+- Replace Account Key–based SAS with User Delegation SAS where supported.
+- Implement Lifecycle Management policies for automated storage tiering.
+- Integrate Azure Monitor and Log Analytics for centralized monitoring.
+- Configure Azure Backup and recovery strategies.
+- Enable Blob Versioning and Soft Delete for enhanced data protection.
+
 
 ---
 
@@ -285,6 +291,6 @@ The knowledge and implementation experience gained from this project provide a s
 
 ---
 
-## Next Project
+## Portfolio Progress
 
-**Next Project → Azure Virtual Networks**
+This project establishes the foundational Azure Storage concepts that are expanded in later portfolio projects covering enterprise governance, identity, networking, monitoring, security, and infrastructure administration.
