@@ -35,14 +35,16 @@ This portfolio demonstrates practical Azure administration through progressively
 
 Current enterprise implementation areas include:
 
-- Enterprise Resource Organization
-- Azure Storage Administration
+- Enterprise Resource Governance
+- Azure Storage Foundation
+- Enterprise Azure Storage Governance
 - Azure Virtual Networking
 - Azure Virtual Machines
-- Microsoft Entra ID
-- Azure Role-Based Access Control (RBAC)
+- Microsoft Entra ID & Azure RBAC
+- Azure Monitoring
+- Cost Optimization
 
-Every project is documented using a consistent enterprise documentation framework that emphasizes architectural design, implementation evidence, administrative decision-making, governance, and operational best practices.
+Every project is documented using a consistent enterprise documentation framework that emphasizes architectural design, implementation evidence, technical decision-making, governance, and operational best practices.
 
 ---
 
@@ -54,15 +56,24 @@ Each project builds upon previous implementations to create a progressively conn
 
 ---
 
+## 📖 Documentation Philosophy
+
+Every project in this portfolio is documented as though it were delivered to a real customer.
+
+Rather than only demonstrating resource deployment, each implementation includes business context, architectural decisions, governance considerations, security recommendations, operational validation, and implementation evidence. This approach reflects the documentation standards expected of Azure Administrators working in enterprise environments.
+
+---
+
 ## 🚀 Portfolio Projects
 
 | Project | Focus Area | Status |
 |----------|------------|--------|
 | [01 - Enterprise Azure Resource Group Governance Foundation](./01-Enterprise-Resource-Groups) | Governance | ✅ Completed |
-| [02 - Enterprise Azure Storage Administration](./02-Azure-Storage-Administration) | Storage | ✅ Completed |
+| [02 - Azure Storage Foundation](./02-Azure-Storage-Administration) | Azure Storage Foundation | ✅ Completed |
 | [03 - Enterprise Azure Virtual Network Deployment](./03-Enterprise-Virtual-Network) | Networking | ✅ Completed |
-| [04 - Enterprise Azure Virtual Machines](./04-Enterprise-Virtual-Machine-Administration) | Virtual Machine | ✅ Completed |
+| [04 - Enterprise Azure Virtual Machines](./04-Enterprise-Azure-Virtual-Machine-Administration) | Virtual Machine | ✅ Completed |
 | [05 - Enterprise Microsoft Entra ID Identity & Access Management](./05-Enterprise-Identity-and-Access-Management) | Microsoft Entra ID & Azure RBAC | ✅ Completed |
+| [06 - Enterprise Azure Storage Governance & Administration](./06-Enterprise-Azure-Storage-Governance-and-Administration) | Enterprise Storage Governance | ✅ Completed |
 
 ---
 
@@ -70,14 +81,13 @@ Each project builds upon previous implementations to create a progressively conn
 
 ### Certification Path
 ```text
-
                AZ-900 ✅
                   │
                   ▼
          Enterprise Governance ✅
                   │
                   ▼
-   Azure Storage Administration ✅
+   Azure Storage Foundation ✅
                   │
                   ▼
            Azure Networking ✅
@@ -89,10 +99,10 @@ Each project builds upon previous implementations to create a progressively conn
    Microsoft Entra ID & Azure RBAC ✅
                   │
                   ▼
-Azure Storage Security & Data Management ⏳
+Enterprise Azure Storage Governance ✅
                   │
                   ▼
-      Azure Monitoring & Backup
+      Azure Monitoring & Backup ⏳
                   │
                   ▼
          Microsoft Certified:
@@ -108,7 +118,7 @@ Azure-Administrator-Portfolio
 ├── 01-Enterprise-Resource-Groups              # Project 01: Cloud Governance
 │   ├── README.md
 │   └── images/
-├── 02-Azure-Storage-Administration            # Project 02: Storage Infrastructure
+├── 02-Azure-Storage-Administration           # Project 02: Storage Infrastructure
 │   ├── README.md
 │   └── images/
 ├── 03-Enterprise-Virtual-Network             # Project 03: Network Design
@@ -117,10 +127,14 @@ Azure-Administrator-Portfolio
 ├── 04-Enterprise-Virtual-Machine-Administration # Project 04: Compute Management
 │   ├── README.md
 │   └── images/
-└── 05-Enterprise-Identity-and-Access-Management # Project 05: Identity & Access Management (IAM)
+├── 05-Enterprise-Identity-and-Access-Management # Project 05: Identity & Access Management (IAM)
+│   ├── README.md
+│   └── images/
+└── 06-Enterprise-Azure-Storage-Governance-and-Administration       # Project 06: Enterprise Storage Governance
     ├── README.md
     └── images/
 ```
+
 ---
 
 ## 📋 Portfolio Strategy & Framework
@@ -131,21 +145,20 @@ Every project in this portfolio follows a consistent enterprise documentation st
 
 Each project follows the documentation structure below where applicable:
 
-| Documentation Standard | Purpose |
-|------------------------|---------|
-| **Project Information** | Summarizes the project title, environment, implementation method, and current status. |
-| **Project Overview** | Introduces the project scope, objectives, and Azure services implemented. |
-| **Business Scenario** | Presents a realistic enterprise scenario that the project is designed to solve. |
-| **Project Objectives** | Defines the technical and administrative goals of the implementation. |
-| **Architecture Overview** | Illustrates how Azure resources interact within the enterprise environment. |
-| **Implementation Notes & Design Decisions** | Explains key administrative decisions, implementation choices, and enterprise considerations. |
-| **Enterprise Best Practices** | Highlights governance, security, naming conventions, and the Principle of Least Privilege. |
-| **Deployment Challenges** | Documents real-world implementation issues encountered and how they were resolved. |
-| **Lessons Learned** | Summarizes the knowledge and practical experience gained from completing the project. |
-| **Project Outcome** | Reviews the final implementation and key technical achievements. |
-| **Portfolio Continuation** | Shows how each completed project connects to the next stage of the Azure Administrator learning journey. |
-| **References** | Lists official Microsoft Learn documentation and supporting technical resources. |
-| **Screenshot Gallery** | Provides visual evidence of implementation with concise descriptions for every major step. |
+| Documentation Standard        | Purpose                                   |
+| ----------------------------- | ----------------------------------------- |
+| **Project Information**           | Project metadata and implementation scope |
+| **Project Objective**             | Technical goals and expected outcomes     |
+| **Business Scenario**             | Enterprise use case                       |
+| **Business Requirements**         | Functional requirements                   |
+| **Architecture Overview**         | Solution design                           |
+| **Administrator Decision Matrix** | Technical decisions and rationale         |
+| **Security Considerations**       | Security controls and best practices      |
+| **Governance Considerations**     | Operational governance                    |
+| **Interview Readiness**           | Common Azure interview questions          |
+| **Implementation Evidence**       | Screenshot-backed validation              |
+| **Production Readiness**          | Assessment against enterprise standards   |
+| **Future Enhancements**           | Planned improvements                      |
 
 ---
 
@@ -167,24 +180,31 @@ The primary objectives are:
 
 | Metric | Current Status |
 | :--- | :--- |
-| **Project Completion** | **5 / 20 Projects Complete** |
-| **Active Focus** | **Project 06 – Azure Storage Security & Data Management** |
-| **Last Updated** | 24 July 2026 |
+| **Project Completion** | **6 / 20 Projects Complete** |
+| **Active Focus** | **Project 07 – Azure Virtual Network Security & Connectivity** |
+| **Last Updated** | 30 July 2026 |
 
 ### Infrastructure Skills Covered
-* **Compute Engine**: Azure Virtual Machines • Azure Compute • Windows Server 2022
-* **Storage & Security**: Managed Disks • Trusted Launch • Secure Boot • Virtual TPM (vTPM)
-* **Operations & Control**: Azure Monitor • Boot Diagnostics • Auto Shutdown • Cost Optimization • Infrastructure as Code Concepts
 
-### Latest Project Highlights (Project 05)
+| Domain | Skills |
+|--------|--------|
+| **Compute** | Azure Virtual Machines • Managed Disks • Windows Server 2022 |
+| **Storage** | Azure Storage • Blob Storage • Azure Files • Lifecycle Management • SAS |
+| **Identity** | Microsoft Entra ID • Azure RBAC • Security Groups |
+| **Networking** | Azure Virtual Network • Network Security Groups (NSGs) |
+| **Operations** | Azure Monitor • Activity Log • Boot Diagnostics • Azure Cost Management |
 
-| Area | Skills Demonstrated |
-|------|----------------------|
-| Identity | Microsoft Entra ID |
-| Authorization | Azure RBAC |
-| Governance | Security Groups |
-| Security | Principle of Least Privilege |
-| Administration | Authentication & Authorization |
+### Latest Project Highlights (Project 06)
+
+| Area          | Skills Demonstrated                               |
+| ------------- | ------------------------------------------------- |
+| Storage       | Azure Storage Accounts                            |
+| Governance    | Enterprise Resource Organization                  |
+| Security      | RBAC, SAS, Secure Transfer, TLS                   |
+| Operations    | Azure Monitor, Activity Log                       |
+| Cost          | Lifecycle Management, LRS, Hot Tier               |
+| Documentation | Enterprise Architecture & Implementation Evidence |
+
 
 ---
 
