@@ -1,12 +1,8 @@
 # ☁️ Azure Administrator Portfolio
 
-Welcome to my Azure Administrator Portfolio, where I document hands-on Microsoft Azure projects based on real-world enterprise scenarios and cloud administration best practices. This portfolio reflects my practical journey toward becoming an Azure Administrator through designing, deploying, securing, monitoring, and documenting Azure infrastructure.
+Welcome to my Azure Administrator Portfolio, where I document hands-on Microsoft Azure projects based on real-world enterprise scenarios and cloud administration best practices.
 
-This repository showcases my hands-on experience building, configuring, and managing Microsoft Azure infrastructure through practical projects that reflect enterprise environments and operational requirements.
-
-Each project demonstrates the planning, implementation, validation, governance, security considerations, cost optimization, and technical documentation expected of an Azure Administrator.
-
-My objective is not only to learn Microsoft Azure services but also to build a professional portfolio that demonstrates practical cloud administration skills while preparing for the **Microsoft Certified: Azure Administrator Associate (AZ-104)** certification.
+The portfolio demonstrates practical experience designing, deploying, securing, monitoring, troubleshooting, and documenting Azure infrastructure while applying principles of governance, least privilege, operational efficiency, and cost management. Each project is structured to reflect the responsibilities and documentation standards expected of an Azure Administrator while supporting my preparation for the **Microsoft Certified: Azure Administrator Associate (AZ-104)** certification.
 
 ---
 
@@ -14,7 +10,7 @@ My objective is not only to learn Microsoft Azure services but also to build a p
 
 | Professional Profile | Microsoft Certifications |
 |----------------------|--------------------------|
-| **Azure Administrator (AZ-900 Certified)** currently building enterprise hands-on experience while preparing for the **Microsoft Certified: Azure Administrator Associate (AZ-104)** certification.<br><br>This portfolio documents practical Microsoft Azure projects covering governance, storage, networking, virtual machines, identity, and access management. Each project is designed around enterprise administration scenarios and emphasizes security, operational best practices, governance, and technical documentation.<br><br>My objective is to demonstrate real-world Azure administration skills through structured, production-oriented implementations while continuously expanding this portfolio. | **Active Certifications**<br><br>✔ Microsoft Certified: Azure Fundamentals (AZ-900)<br><br>**Currently Preparing**<br><br>• Microsoft Certified: Azure Administrator Associate (AZ-104) |
+| **Azure Cloud Administration Candidate** currently building enterprise hands-on experience across Azure governance, storage, networking, virtual machines, identity, access management, and operational administration. | **Active Certification**<br><br>✔ Microsoft Certified: Azure Fundamentals (AZ-900)<br><br>**Currently Preparing**<br><br>• Microsoft Certified: Azure Administrator Associate (AZ-104) |
 
 ---
 
@@ -25,26 +21,21 @@ My objective is not only to learn Microsoft Azure services but also to build a p
 | **Identity & Compute** | Microsoft Entra ID • Virtual Machines • Windows Server 2022 |
 | **Data & Networking** | Azure Networking • Azure Storage • Managed Disks |
 | **Governance & Operations** | Azure Administration • Azure Governance • Azure Resource Manager (ARM) |
-| **Management & DevOps** | Azure Monitoring • Azure Cost Management • Git & GitHub • Markdown |
+| **Management & Documentation** | Azure Monitoring • Azure Cost Management • Git & GitHub • Markdown |
 
 ---
 
 ## Portfolio Highlights
 
-This portfolio demonstrates practical Azure administration through progressively connected enterprise projects.
-
 Current enterprise implementation areas include:
 
 - Enterprise Resource Governance
-- Azure Storage Foundation
-- Enterprise Azure Storage Governance
+- Azure Storage Administration & Governance
 - Azure Virtual Networking
 - Azure Virtual Machines
 - Microsoft Entra ID & Azure RBAC
-- Azure Monitoring
-- Cost Optimization
-
-Every project is documented using a consistent enterprise documentation framework that emphasizes architectural design, implementation evidence, technical decision-making, governance, and operational best practices.
+- Network Security & Connectivity
+- Cost Management & Optimization
 
 ---
 
@@ -58,9 +49,7 @@ Each project builds upon previous implementations to create a progressively conn
 
 ## 📖 Documentation Philosophy
 
-Every project in this portfolio is documented as though it were delivered to a real customer.
-
-Rather than only demonstrating resource deployment, each implementation includes business context, architectural decisions, governance considerations, security recommendations, operational validation, and implementation evidence. This approach reflects the documentation standards expected of Azure Administrators working in enterprise environments.
+Each project is documented as though it were delivered to a real customer, covering business context, architectural decisions, implementation evidence, security, governance, validation, and production-readiness considerations.
 
 ---
 
@@ -74,7 +63,7 @@ Rather than only demonstrating resource deployment, each implementation includes
 | [04 - Enterprise Azure Virtual Machines](./04-Enterprise-Azure-Virtual-Machine-Administration) | Virtual Machine | ✅ Completed |
 | [05 - Enterprise Microsoft Entra ID Identity & Access Management](./05-Enterprise-Identity-and-Access-Management) | Microsoft Entra ID & Azure RBAC | ✅ Completed |
 | [06 - Enterprise Azure Storage Governance & Administration](./06-Enterprise-Azure-Storage-Governance-and-Administration) | Enterprise Storage Governance | ✅ Completed |
-
+| [07 - Enterprise Azure Virtual Network Security & Segmentation](./07-Enterprise-Azure-Network-Security-&-Connectivity) | Network Security & Connectivity | ✅ Completed |
 ---
 
 ## 🗺️ Learning Roadmap & Architecture
@@ -100,6 +89,9 @@ Rather than only demonstrating resource deployment, each implementation includes
                   │
                   ▼
 Enterprise Azure Storage Governance ✅
+                  │
+                  ▼
+ Network Security & Connectivity ✅
                   │
                   ▼
       Azure Monitoring & Backup ⏳
@@ -130,7 +122,10 @@ Azure-Administrator-Portfolio
 ├── 05-Enterprise-Identity-and-Access-Management # Project 05: Identity & Access Management (IAM)
 │   ├── README.md
 │   └── images/
-└── 06-Enterprise-Azure-Storage-Governance-and-Administration       # Project 06: Enterprise Storage Governance
+├── 06-Enterprise-Azure-Storage-Governance-and-Administration
+│   ├── README.md
+│   └── images/
+└── 07-Enterprise-Azure-Network-Security-&-Connectivity
     ├── README.md
     └── images/
 ```
@@ -141,48 +136,40 @@ Azure-Administrator-Portfolio
 
 ### Documentation Standards
 
-Every project in this portfolio follows a consistent enterprise documentation standard to demonstrate both technical implementation and administrative decision-making.
+Projects follow a consistent documentation framework covering the following areas where applicable:
 
-Each project follows the documentation structure below where applicable:
-
-| Documentation Standard        | Purpose                                   |
-| ----------------------------- | ----------------------------------------- |
-| **Project Information**           | Project metadata and implementation scope |
-| **Project Objective**             | Technical goals and expected outcomes     |
-| **Business Scenario**             | Enterprise use case                       |
-| **Business Requirements**         | Functional requirements                   |
-| **Architecture Overview**         | Solution design                           |
-| **Administrator Decision Matrix** | Technical decisions and rationale         |
-| **Security Considerations**       | Security controls and best practices      |
-| **Governance Considerations**     | Operational governance                    |
-| **Interview Readiness**           | Common Azure interview questions          |
-| **Implementation Evidence**       | Screenshot-backed validation              |
-| **Production Readiness**          | Assessment against enterprise standards   |
-| **Future Enhancements**           | Planned improvements                      |
+| Documentation Standard | Purpose |
+|------------------------|---------|
+| **Project Information** | Project metadata and implementation scope |
+| **Project Objective** | Technical goals and expected outcomes |
+| **Business Scenario** | Enterprise use case |
+| **Business Requirements** | Functional requirements |
+| **Architecture Overview** | Solution design |
+| **Administrator Decision Matrix** | Technical decisions and rationale |
+| **Security Considerations** | Security controls and best practices |
+| **Governance Considerations** | Operational governance |
+| **Interview Readiness** | Common Azure interview questions |
+| **Implementation Evidence** | Screenshot-backed validation |
+| **Production Readiness** | Assessment against enterprise standards |
+| **Future Enhancements** | Planned improvements |
 
 ---
 
 ### Portfolio Objectives
 
-This portfolio has been designed to demonstrate practical Azure administration skills through structured, enterprise-oriented projects.
-
-The primary objectives are:
-
-- **Develop Practical Experience** by designing, deploying, securing, and managing Microsoft Azure infrastructure through hands-on implementation.
-- **Apply Enterprise Best Practices** by following Microsoft-recommended governance, security, identity, networking, storage, and operational standards.
-- **Build a Professional Portfolio** that demonstrates real-world Azure administration capabilities beyond certification preparation.
-- **Document Administrative Decision-Making** by explaining implementation choices, governance considerations, and enterprise design principles.
-- **Prepare for the Microsoft Certified: Azure Administrator Associate (AZ-104)** certification while building experience relevant to Azure Administrator and Cloud Infrastructure roles.
+- **Develop Practical Experience** through hands-on Azure infrastructure design, deployment, security, and administration.
+- **Apply Enterprise Best Practices** across governance, identity, networking, storage, security, and operations.
+- **Demonstrate Administrative Decision-Making** through documented technical choices and implementation rationale.
+- **Build a Professional Portfolio** demonstrating practical Azure administration capabilities beyond certification preparation.
+- **Prepare for AZ-104** while developing skills relevant to Azure Administrator and Cloud Infrastructure roles.
 
 ---
 
 ## 📊 Portfolio Status & Technical Progress
 
-| Metric | Current Status |
-| :--- | :--- |
-| **Project Completion** | **6 / 20 Projects Complete** |
-| **Active Focus** | **Project 07 – Azure Virtual Network Security & Connectivity** |
-| **Last Updated** | 30 July 2026 |
+| **Project Completion** | **7 / 20 Projects Complete** |
+| **Current Stage** | **Network Security & Connectivity** |
+| **Last Updated** | 16 September 2026 |
 
 ### Infrastructure Skills Covered
 
@@ -191,20 +178,22 @@ The primary objectives are:
 | **Compute** | Azure Virtual Machines • Managed Disks • Windows Server 2022 |
 | **Storage** | Azure Storage • Blob Storage • Azure Files • Lifecycle Management • SAS |
 | **Identity** | Microsoft Entra ID • Azure RBAC • Security Groups |
-| **Networking** | Azure Virtual Network • Network Security Groups (NSGs) |
+| **Networking** | Azure Virtual Network • Subnets • Network Security Groups (NSGs) • Application Security Groups (ASGs) • Service Endpoints |
 | **Operations** | Azure Monitor • Activity Log • Boot Diagnostics • Azure Cost Management |
+| **Network Operations** | Azure Network Watcher • Network Topology • Effective Security Rules • Effective Routes • Connectivity Testing |
 
-### Latest Project Highlights (Project 06)
+### Latest Project Highlights (Project 07)
 
-| Area          | Skills Demonstrated                               |
-| ------------- | ------------------------------------------------- |
-| Storage       | Azure Storage Accounts                            |
-| Governance    | Enterprise Resource Organization                  |
-| Security      | RBAC, SAS, Secure Transfer, TLS                   |
-| Operations    | Azure Monitor, Activity Log                       |
-| Cost          | Lifecycle Management, LRS, Hot Tier               |
+| Area | Skills Demonstrated |
+|------|---------------------|
+| Networking | Azure Virtual Network • Subnet Segmentation |
+| Security | NSGs • ASGs • RDP Source Restriction |
+| Connectivity | Storage Service Endpoint • Network Watcher |
+| Troubleshooting | Effective Security Rules • Effective Routes |
+| Validation | RDP Connectivity • HTTPS Connectivity Testing |
+| Operations | Network Topology • Network Diagnostics |
+| Cost Management | Temporary VM Lifecycle & Resource Cleanup |
 | Documentation | Enterprise Architecture & Implementation Evidence |
-
 
 ---
 
