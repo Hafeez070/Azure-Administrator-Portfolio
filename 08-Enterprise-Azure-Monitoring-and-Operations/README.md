@@ -239,17 +239,17 @@ The following existing screenshots document the workspace, storage log validatio
 
 ![Storage Blob operations log validation](images/03-storage-blob-operations-log-validation.png)
 
-### 05 — Alert Rule Overview
+### 04 — Alert Rule Overview
 
-![Alert rule overview](images/05-alert-rule-overview.png)
+![Alert rule overview](images/04-alert-rule-overview.png)
 
-### 06 — Azure Monitor Operations Workbook
+### 05 — Azure Monitor Operations Workbook
 
-![Azure Monitor operations workbook](images/06-azure-monitor-operations-workbook.png)
+![Azure Monitor operations workbook](images/05-azure-monitor-operations-workbook.png)
 
-### 07 — Activity Log Operational Validation
+### 06 — Activity Log Operational Validation
 
-![Activity Log operational validation](images/07-activity-log-operational-validation.png)
+![Activity Log operational validation](images/06-activity-log-operational-validation.png)
 
 ---
 
