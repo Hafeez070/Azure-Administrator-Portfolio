@@ -21,7 +21,8 @@ The portfolio demonstrates practical experience designing, deploying, securing, 
 | **Identity & Compute** | Microsoft Entra ID • Virtual Machines • Windows Server 2022 |
 | **Data & Networking** | Azure Networking • Azure Storage • Managed Disks |
 | **Governance & Operations** | Azure Administration • Azure Governance • Azure Resource Manager (ARM) |
-| **Management & Documentation** | Azure Monitoring • Azure Cost Management • Git & GitHub • Markdown |
+| **Monitoring & Operations** | Azure Monitor • Log Analytics • Storage Diagnostic Logs • Activity Log Alerts • Action Groups • Workbooks |
+| **Management & Documentation** | Azure Cost Management • Git & GitHub • Markdown |
 
 ---
 
@@ -35,6 +36,7 @@ Current enterprise implementation areas include:
 - Azure Virtual Machines
 - Microsoft Entra ID & Azure RBAC
 - Network Security & Connectivity
+- Azure Monitoring & Operations
 - Cost Management & Optimization
 
 ---
@@ -64,6 +66,7 @@ Each project is documented as though it were delivered to a real customer, cover
 | [05 - Enterprise Microsoft Entra ID Identity & Access Management](./05-Enterprise-Identity-and-Access-Management) | Microsoft Entra ID & Azure RBAC | ✅ Completed |
 | [06 - Enterprise Azure Storage Governance & Administration](./06-Enterprise-Azure-Storage-Governance-and-Administration) | Enterprise Storage Governance | ✅ Completed |
 | [07 - Enterprise Azure Virtual Network Security & Segmentation](./07-Enterprise-Azure-Network-Security-&-Connectivity) | Network Security & Connectivity | ✅ Completed |
+| [08 - Enterprise Azure Monitoring and Operations](./08-Enterprise-Azure-Monitoring-and-Operations) | Azure monitoring and operations | ✅ Completed |
 ---
 
 ## 🗺️ Learning Roadmap & Architecture
@@ -94,7 +97,10 @@ Enterprise Azure Storage Governance ✅
  Network Security & Connectivity ✅
                   │
                   ▼
-      Azure Monitoring & Backup ⏳
+ Azure Monitoring & Operations ✅
+                  │
+                  ▼
+            Azure Backup ⏳
                   │
                   ▼
          Microsoft Certified:
@@ -125,7 +131,10 @@ Azure-Administrator-Portfolio
 ├── 06-Enterprise-Azure-Storage-Governance-and-Administration
 │   ├── README.md
 │   └── images/
-└── 07-Enterprise-Azure-Network-Security-&-Connectivity
+├── 07-Enterprise-Azure-Network-Security-&-Connectivity
+│   ├── README.md
+│   └── images/
+└── 08-Enterprise-Azure-Monitoring-and-Operations
     ├── README.md
     └── images/
 ```
@@ -167,9 +176,9 @@ Projects follow a consistent documentation framework covering the following area
 
 ## 📊 Portfolio Status & Technical Progress
 
-| **Project Completion** | **7 / 20 Projects Complete** |
-| **Current Stage** | **Network Security & Connectivity** |
-| **Last Updated** | 16 September 2026 |
+| **Project Completion** | **8 / 20 Projects Complete** |
+| **Current Stage** | **Enterprise Azure Monitoring and Operations** |
+| **Last Updated** | 19 October 2026 |
 
 ### Infrastructure Skills Covered
 
@@ -179,21 +188,20 @@ Projects follow a consistent documentation framework covering the following area
 | **Storage** | Azure Storage • Blob Storage • Azure Files • Lifecycle Management • SAS |
 | **Identity** | Microsoft Entra ID • Azure RBAC • Security Groups |
 | **Networking** | Azure Virtual Network • Subnets • Network Security Groups (NSGs) • Application Security Groups (ASGs) • Service Endpoints |
-| **Operations** | Azure Monitor • Activity Log • Boot Diagnostics • Azure Cost Management |
+| **Operations** | Azure Monitor • Log Analytics • Storage Diagnostic Logs • Activity Log • Activity Log Alerts • Action Groups • Workbooks • Boot Diagnostics • Azure Cost Management |
 | **Network Operations** | Azure Network Watcher • Network Topology • Effective Security Rules • Effective Routes • Connectivity Testing |
 
-### Latest Project Highlights (Project 07)
+### Latest Project Highlights (Project 08)
 
 | Area | Skills Demonstrated |
 |------|---------------------|
-| Networking | Azure Virtual Network • Subnet Segmentation |
-| Security | NSGs • ASGs • RDP Source Restriction |
-| Connectivity | Storage Service Endpoint • Network Watcher |
-| Troubleshooting | Effective Security Rules • Effective Routes |
-| Validation | RDP Connectivity • HTTPS Connectivity Testing |
-| Operations | Network Topology • Network Diagnostics |
-| Cost Management | Temporary VM Lifecycle & Resource Cleanup |
-| Documentation | Enterprise Architecture & Implementation Evidence |
+| Monitoring | Azure Monitor • Log Analytics workspace |
+| Storage Operations | Storage diagnostic logs • Blob operation review with KQL |
+| Alerting | Activity Log alert configuration • Email Action Group |
+| Visualization | Azure Monitor Workbook with storage activity views |
+| Validation | Storage operation log review • Activity Log operational check |
+| Limitations | Alert firing, email delivery, VM monitoring, and measured costs not validated |
+| Documentation | Enterprise architecture • Evidence-based implementation documentation |
 
 ---
 
